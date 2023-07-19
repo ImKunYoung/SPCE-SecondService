@@ -4,15 +4,99 @@ filters:
       - /섹션-2/i
     events: [issues, pull_request]
     targets: [title, comment, branch]
+
+  - label: 섹션 3. E-commerce 애플리케이션
+    regexs:
+      - /섹션-3/i
+    events: [issues, pull_request]
+    targets: [title, comment, branch]
+
+  - label: 섹션 4. Users Microservice
+    regexs:
+      - /섹션-4/i
+    events: [issues, pull_request]
+    targets: [title, comment, branch]
+
+  - label: 섹션 5. Catalog Microservice and Orders Microservice
+    regexs:
+      - /섹션-5/i
+    events: [issues, pull_request]
+    targets: [title, comment, branch]
+
+  - label: 섹션 6. Users Microservice
+    regexs:
+      - /섹션-6/i
+    events: [issues, pull_request]
+    targets: [title, comment, branch]
+
+  - label: 섹션 7. Configuration Service
+    regexs:
+      - /섹션-7/i
+    events: [issues, pull_request]
+    targets: [title, comment, branch]
+
+  - label: 섹션 8. Spring Cloud Bus
+    regexs:
+      - /섹션-8/i
+    events: [issues, pull_request]
+    targets: [title, comment, branch]
+
+  - label: 섹션 9. 설정 정보의 암호화 처리
+    regexs:
+      - /섹션-9/i
+    events: [ issues, pull_request ]
+    targets: [ title, comment, branch ]
+
+  - label: 섹션 10. Microservice간 통신
+    regexs:
+      - /섹션-10/i
+    events: [ issues, pull_request ]
+    targets: [ title, comment, branch ]
+
+  - label: 섹션 11. 데이트 동기화를 위한 Apache Kafka의 활용-1
+    regexs:
+      - /섹션-11/i
+    events: [ issues, pull_request ]
+    targets: [ title, comment, branch ]
+
+  - label: 섹션 12. 데이트 동기화를 위한 Apache Kafka의 활용-2
+    regexs:
+      - /섹션-12/i
+    events: [ issues, pull_request ]
+    targets: [ title, comment, branch ]
+
+  - label: 섹션 13. 장애 처리와 Microservice 분산 추적
+    regexs:
+      - /섹션-13/i
+    events: [ issues, pull_request ]
+    targets: [ title, comment, branch ]
+
+  - label: 섹션 14. Microservice의 모니터링
+    regexs:
+      - /섹션-14/i
+    events: [ issues, pull_request ]
+    targets: [ title, comment, branch ]
+
+  - label: 섹션 15. 애플리케이션 배포를 위한 컨테이너 가상화
+    regexs:
+      - /섹션-15/i
+    events: [ issues, pull_request ]
+    targets: [ title, comment, branch ]
+
+  - label: 섹션 16. 애플리케이션 배포 - Docker Container
+    regexs:
+      - /섹션-16/i
+    events: [ issues, pull_request ]
+    targets: [ title, comment, branch ]
+
+  - label: 섹션 17. Appendix, Microservice Architecture 패턴
+    regexs:
+      - /섹션-17/i
+    events: [ issues, pull_request ]
+    targets: [ title, comment, branch ]
+
   - label: ci
     regexs:
       - /ci/i
     events: [issues, pull_request]
     targets: [title, comment]
-  - label: documentation
-    regexs:
-      - /docs/
-    events: [pull_request]
-  - label: chore
-    regexs:
-      - /\bchore(\(.*\))?:/i
