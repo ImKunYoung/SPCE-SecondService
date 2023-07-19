@@ -1,0 +1,18 @@
+filters:
+  - label: 섹션 2. API Gatewy Service
+    regexs:
+      - /섹션-2/i
+    events: [issues, pull_request]
+    targets: [title, comment]
+  - label: ci
+    regexs:
+      - /ci/i
+    events: [issues, pull_request]
+    targets: [title, comment]
+  - label: documentation
+    regexs:
+      - /docs/
+    events: [pull_request]
+  - label: chore
+    regexs:
+      - /\bchore(\(.*\))?:/i
