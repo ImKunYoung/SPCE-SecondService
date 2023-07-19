@@ -1,2 +1,4 @@
-섹션 2. API Gatewy Service:
-  - any: ['섹션-2/*']
+labels:
+  - name: 섹션 2. API Gatewy Service
+    branchContains:
+      - "섹션-2"
