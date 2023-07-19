@@ -3,7 +3,7 @@ filters:
     regexs:
       - /섹션-2/i
     events: [issues, pull_request]
-    targets: [title, comment]
+    targets: [title, comment, branch]
   - label: ci
     regexs:
       - /ci/i
